@@ -1,0 +1,6 @@
+DELIMITER $$
+DROP PROCEDURE IF EXISTS HelloWorld$$
+CREATE PROCEDURE HelloWorld ()
+BEGIN
+	SELECT 'Hello World';
+END$$
